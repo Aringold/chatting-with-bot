@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 100%;
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    height: 200px;
+    min-width: 1px;
+
+    .error {
+      color: red;
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px; 
+    }
+  }
+}
